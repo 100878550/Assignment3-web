@@ -19,9 +19,11 @@ body {
     font-weight: bold;
   }
   
-  a:link,
+  a:link{
+    color: #fb6542;
+  }
   a:visited {
-    color: green;
+    color: purple;
   }
   
   a:hover {
