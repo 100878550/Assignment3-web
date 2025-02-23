@@ -18,7 +18,16 @@ div{
     text-shadow: 1px 1px 1px black;
 
     background-color: red;
+
     box-shadow: inset 2px 2px 3px rgba(red, green, blue, alpha),
-                inset -2px -2px 3px rgba(black, black,black,alpha)
-                2px 2px 5px black;
+    inset -2px -2px 3px rgba(black, black,black,alpha)
+    2px 2px 5px black;
+    
+    background-image: linear-gradient(
+        to top left
+        rgba(black,black,black,0.2)
+        rgba(black,black,black,0.2) 30%
+        rgba(black,black,black,0)
+    );
+    
 }
