@@ -43,3 +43,22 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+  @font-face {
+    font-family: Georgia;
+    src: url('path/to/Georiga.woff2') format('woff2'),
+         url('path/to/Georgia.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Roboto Slab';
+    src: url('path/to/RobotoSlab.woff2') format('woff2'),
+         url('path/to/RobotoSlab.woff') format('woff');
+  }
+  body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    line-height: 1.6;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Slab',sans-serif;
+    letter-spacing: 1px;
+  }
